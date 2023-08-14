@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Shikha Jaiswal</h1>
+            <h3>And I'm a Final Year CSE student,</h3>
+            <p>With skills in Python, Java and Web Development</p>
+            <br>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/shikha-jaiswal-317985223"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Shikha0105"><i class='bx bxl-github'></i></a>
+                <a href="https://www.hackerrank.com/shikhajaiswal011?hr_r=1"><i class='fab fa-hackerrank'></i></a>
+
+            </div>
+            <a href="https://drive.google.com/file/d/1FLuDP-pxkZMwU4VbvWygcbeP0RzVpbKo/view?usp=drive_link"
+                class="btn-box">More About Me</a>
+        </div>
+
+
+        <div class="pic"><img src="1.jpeg" style="border: white solid;"></div>
+
+    </section>
+
+    <section class="about">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="1.jpeg" style="border:white solid;" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h2>About<span>Me</span></h2>
+                        <p>Computer Science student with many skills. Interested in both
+                            back-end and front-end technologies , knowledgeable with JS, CSS, HTML and Python.
+
+                            I am a Practical knowledge seeker. To work in an environment where my skills and knowledge
+                            reflects the
+                            growth of the company and enhance my knowledge as well as experience. Looking for
+                            Entry-Level Position in
+                            Software Company to utilize my strong technical expertise and academic training for
+                            betterment of my
+                            employer.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Software Developement</span><br>Python and Java</li>
+                                <li><span>Web Development</span><br>HTML, CSS and JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>August 2022 - September 2022</span><br>Web Development Project at
+                                    Intern'spedia</li>
+                                <li><span>July 2022 - September 2022</span><br>Web Development at Internshala</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020 - 2024</span><br>B.Tech - Noida Institute of Engineering and
+                                    Technology<br>82.66%</li>
+                                <li><span>2019 </span><br>12 - GDA, Varanasi<br></li>
+                                <li><span>2017</span><br>10 - GDA, Varanasi<br></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- -------------CONTACT---------------- -->
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Thank you for visiting my portfolio! I'm thrilled to have you here.<br>
+
+                If you have any questions, comments, or collaboration inquiries, I'd love to hear from you.
+                Whether it's about a potential project, a partnership opportunity, or
+                just to say hello, feel free to get in touch using the form below or through my contact information
+                provided.<br>
+                Your feedback and thoughts are essential to me, and I promise to get back to you as soon as
+                possible.<br>
+                Looking forward to connecting with you and exploring how we can work together to bring your ideas to
+                life!<br>
+
+                Best regards,<br>
+                Shikha Jaiswal</p>
+                
+            <div class="contact-list">
+                <li><a href="mailto:shikhajaiswal0105@gmail.com"><i
+                            class='bx bxs-send'></i>shikhajaiswal0104@gmail.com</a></li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/shikha-jaiswal-317985223"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Shikha0105"><i class='bx bxl-github'></i></a>
+                <a href="https://www.hackerrank.com/shikhajaiswal011?hr_r=1"><i class='fab fa-hackerrank'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form name="submit-to-google-sheet">
+                <input type="" name="Name" placeholder="Enter Your Name" required>
+                <input type="email" name="Email" placeholder="Enter Your Email" required>
+
+                <input type="" name="Subject" placeholder="Enter Your Subject">
+                <textarea name="Message" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+            <span id="msg"></span>
+        </div>
+    </section>
+
+    <!-- -------------UP Arrow------------------- -->
+    <div class="last-text">
+        <p>Developed by Shikha Jaiswal </p>
+        <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+    <script>
+        
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzHVAFICSwvFrkgp5ewSf26Fw_ko5kBaoqQQ0MzJP4ReUmvZT8OLvxbMG7Vko20jNdrYg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
